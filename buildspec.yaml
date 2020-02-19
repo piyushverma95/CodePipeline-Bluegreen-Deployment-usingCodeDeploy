@@ -27,9 +27,7 @@ phases:
       - cat imageDetail.json
 artifacts:
     files:
+      - appspec.yaml
       - imageDetail.json
-      - appspec.yml
-  #    - taskdef.json
-     # - target/CodePipeline-0.0.1-SNAPSHOT.jar
       
       # https://docs.aws.amazon.com/AmazonECS/latest/userguide/ecs-cd-pipeline.html
