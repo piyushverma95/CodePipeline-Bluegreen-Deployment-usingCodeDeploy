@@ -14,7 +14,7 @@
 			"protocol": "tcp",
 			"containerPort": 8080
 		}],
-		"image": "$REPOSITORY_URI:$IMAGE_TAG",
+		"image": $REPOSITORY_URI:$IMAGE_TAG,
 		"name": "SpringAppContainer"
 	}],
 	"memory": "1024",
