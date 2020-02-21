@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: arn:aws:ecs:us-east-2:969829910614:task-definition/TaskOnlyTaskDefinition:13
+        TaskDefinition: arn:aws:ecs:us-east-2:969829910614:task-definition/EcsTaskDefinition:latest
         LoadBalancerInfo: 
-          ContainerName: "TaskOnly-TaskDefinition"
+          ContainerName: "SpringAppContainer"
           ContainerPort: 8080
