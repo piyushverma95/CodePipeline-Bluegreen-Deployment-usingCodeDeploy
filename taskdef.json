@@ -18,7 +18,7 @@
 		"name": "SpringAppContainer"
 	}],
 	"memory": "1024",
-	"compatibilities": ["FARGATE"],
+	"requiresCompatibilities": ["FARGATE"],
 	"family": "EcsTaskDefinition",
 	"networkMode": "awsvpc",
 	"cpu": "512"
