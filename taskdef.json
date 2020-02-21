@@ -14,7 +14,7 @@
 			"protocol": "tcp",
 			"containerPort": 8080
 		}],
-		"image": $REPOSITORY_URI:$IMAGE_TAG,
+		"image": "969829910614.dkr.ecr.us-east-2.amazonaws.com/ecs-taskonly-repo:latest",
 		"name": "SpringAppContainer"
 	}],
 	"memory": "1024",
